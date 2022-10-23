@@ -24,7 +24,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
+                <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
             </div>
             <div class="col-md-8">
                 <p>
@@ -44,7 +44,6 @@
                     alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig
                     through the data yourself, and let us know what you see.
 
-
                 </p>
             </div>
         </div>
@@ -56,12 +55,26 @@
                     <p>Filter Search</p>
                     <ul class="list-group bg-dark">
                         <li class="list-group-item bg-dark">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
+                            <label for="date" class="col-md-12">Enter Date</label>
+                            <input type="text" placeholder="1/1/2010" id="datetime" class="col-md-12" />
                         </li>
                         <li class="list-group-item bg-dark">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                            <label for="city" class="col-md-12">Enter a City</label>
+                            <input type="text" placeholder="el cajon" id="city" class="col-md-12" />
                         </li>
+                        <li class="list-group-item bg-dark">
+                            <label for="state" class="col-md-12">Enter a State</label>
+                            <input type="text" placeholder="ca" id="state" class="col-md-12" />
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <label for="country" class="col-md-12">Enter a Country</label>
+                            <input type="text" placeholder="us" id="country" class="col-md-12" />
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <label for="shape" class="col-md-12">Enter a Shape</label>
+                            <input type="text" placeholder="triangle" id="shape" class="col-md-12" />
+                        </li>
+
                     </ul>
                 </form>
             </div>
