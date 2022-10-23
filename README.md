@@ -22,7 +22,7 @@ A data journalist is given an opportunity to write about her hometown: McMinnvil
 
 ## Summary
 
-### A drawback of this new design
+### A drawback of current design
 - The user must know specific dates, cities, or shapes to search. The filters require the user type in correct lower-case spellings and cannot include spaces at the end. If the user types in "US" or "USA" or "United States" or "us " for country, the results will not show up. The only acceptable input for country would be 'us'.
 <table>
   <tr>
