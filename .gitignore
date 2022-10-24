@@ -1,5 +1,8 @@
 # Adding files
 .DS_Store
+static/js/app_1.js
+static/js/practice.js
+test.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
