@@ -1,5 +1,5 @@
 # Adding files
-.DS_Store
+*.DS_Store
 static/js/app_1.js
 static/js/practice.js
 test.html
